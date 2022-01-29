@@ -1,0 +1,150 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<div class="container4" >
+
+
+    <div class="container">
+
+        <h1 style="text-align:center; margin-top: 25px">Lead Investigators</h1>
+		  <div class="row">
+
+			<div class="col-3" id="portfolio-1">
+				<img src="static/images/SanchitaBandyoadhyay-Ghosh.png" alt="Avatar" style="margin-left: 40px; width: 200px;">
+			</div>
+			<div class="col-8" style="margin-left: 50px; margin-top: 2vw;  background-color: rgb(251 93 32 / 30%); border-radius: 2%; "  >
+				<p>Dr. Sanchita Bandyopadhyay-Ghosh is currently working as a Professor in the Department of Mechanical Engineering at Manipal University Jaipur. She obtained her PhD from the University of Sheffield, U.K. with ‘Overseas Research Scholarship’. <span id="dots"></span><span id="more"> Before joining Sheffield, she was awarded Pre-doctoral Fellowship from University of Leuven, Belgium. Following her PhD, she worked as a Teaching Research Fellow at Alfred University, USA. She later joined University of Toronto, Canada as a Post-doctoral Research Fellow. Following her return to India, she joined Birla Institute of Technology and Science, Pilani and later at Manipal University Jaipur.  Dr. Sanchita Bandyopadhyay-Ghosh has secured research grants from various funding agencies and initiated several research programs on development of high performance biomedical materials including injectable bone implants, tunable hydrogels, bioactive glass-ceramics and 3D printed bio-nanocomposite implants.</span></p>
+				<button onclick="myFunction()" id="myBtn">Read</button>
+				<script>
+					function myFunction() {
+					  var dots = document.getElementById("dots");
+					  var moreText = document.getElementById("more");
+					  var btnText = document.getElementById("myBtn");
+
+					  if (dots.style.display === "none") {
+						dots.style.display = "inline";
+						btnText.innerHTML = "Read more";
+						moreText.style.display = "none";
+					  } else {
+						dots.style.display = "none";
+						btnText.innerHTML = "Read less";
+						moreText.style.display = "inline";
+					  }
+					}
+				</script>
+			</div>
+		</div>
+
+        <div class="row">
+			 <div class="col-3" id="portfolio-1">
+        		<img src="static/images/SubrataBandhuGhosh.png" alt="Avatar" style="margin-left: 40px; margin-right: auto; width: 200px;">
+    		</div>
+            <div class="col-8" style="margin-left: 50px; margin-top: 2vw;  background-color: rgb(251 93 32 / 30%); border-radius: 2%; ">
+        		<p>Dr. Subrata Bandhu Ghosh is working as a professor in the Department of Mechanical Engineering at Manipal University Jaipur. He pursued his PhD from the University of Sheffield, U.K. Before, joining Sheffield, he was awarded Pre-doctoral Fellowship from University of Leuven, Belgium.<span id="dots1"></span><span id="more1"> Upon completion of his PhD, Dr. Ghosh joined the University of Toronto, Canada as a Post-doctoral Fellow and later as a Research Scientist. Following his return to India, Dr. Ghosh joined BITS Pilani and later Manipal University Jaipur. Dr. Ghosh has initiated several research programs on sustainable additive manufacturing, microcellular bioplastics and biobased nanocomposites. Additionally, he served as the founding Director (Research) at Manipal University Jaipur.</span></p>
+				<button onclick="myFunction1()" id="myBtn1">Read</button>
+				<script>
+					function myFunction1() {
+					  var dots = document.getElementById("dots1");
+					  var moreText = document.getElementById("more1");
+					  var btnText = document.getElementById("myBtn1");
+
+					  if (dots.style.display === "none") {
+						dots.style.display = "inline";
+						btnText.innerHTML = "Read more";
+						moreText.style.display = "none";
+					  } else {
+						dots.style.display = "none";
+						btnText.innerHTML = "Read less";
+						moreText.style.display = "inline";
+					  }
+					}
+				</script>
+    		</div>
+    	</div>
+
+
+
+
+        <h1 style="text-align:center; margin-top: 25px">Research Scholars/Fellows</h1>
+
+
+    <div class="row">
+
+  <div class="col-md-6">
+				<div class="testimony-entry animate-box">
+					<div class="feed-bubble">
+						<p>Abhijit completed his bachelor's in production engineering from Mumbai University. He completed his M.Tech. in Manufacturing Technology from Manipal University Jaipur. Later on he joined EnBioMatRIC Lab at Manipal University Jaipur for his PhD. Currently he is pursuing his research in additive manufacturing of bioactive bone scaffold-based materials for orthopaedic applications.</p>
+					</div>
+					<div class="author-img" style="background-image: url(static/images/user-1.jpg);"></div>
+					<span class="section-title2">Abhijit K Vyas <br> <small>Doctoral Research Scholar</small></span>
+				</div>
+				<div class="testimony-entry animate-box">
+							<div class="feed-bubble">
+								<p>Vijay is a PhD research scholar at EnBioMatRIC. His research focuses on development of novel nano-biocomposite scaffolds for bone tissue regeneration and augmentation. He pursued his M.Tech.from Department of Manufacturing System Engineering at MNIT Jaipur.</p>
+							</div>
+							<div class="author-img" style="background-image: url(static/images/Vijay.jpg);"></div>
+							<span class="section-title2">Vijay Shankar Kumawat <br> <small>Doctoral Research Scholar</small></span>
+						</div>
+					<div class="testimony-entry animate-box">
+						<div class="feed-bubble">
+						<p> Mr Firoz Alam Faroque has done his B.Tech in civil engineering from Manipal Institute of Technology in 2012.  He completed his M.Tech in structural engineering in 2014 from National Institute of Technology Bhopal. He is currently pursuing his PhD in the " bio-composite materials for structural application " </p>
+						</div>
+						<div class="author-img" style="background-image: url(static/images/user-10.jpeg);"></div>
+						<span class="section-title2">Firoz Alam Faroque<br> <small>Doctoral Research Scholar</small></span>
+					</div>
+  </div>
+
+      <div class="col-md-6">
+				<div class="testimony-entry animate-box">
+					<div class="feed-bubble">
+						<p>Kapender did his M.Tech. in Manufacturing Technology & Automation from Maharshi Dayanand University, Rohtak. He is working on injectable bio-nanocomposite implants.</p>
+					</div>
+					<div class="author-img" style="background-image: url(static/images/user-3.jpg);"></div>
+					<span class="section-title2">Kapender Phogat <br> <small>Doctoral Research Scholar</small></span>
+				</div>
+        <div class="testimony-entry animate-box">
+					<div class="feed-bubble">
+						<p> Tanmay did his M.E. in Design Engineering from BITS Pilani. Currently he is working as a research fellow at both BIONAC and EnBioMatRIC. He is currently working in an industry linked project aimed towards development of high-performance green elastomeric nanocomposites towards tyre tread applications. He is also actively engaged in projects concerning development of degradable scaffolds for bone tissue regeneration, along with the project on development of bionanocomposite hydrogels for biosensing applications.</p>
+					</div>
+					<div class="author-img" style="background-image: url(static/images/user-5.jpg);"></div>
+					<span class="section-title2">Tanmay Gupta <br> <small>Doctoral Research Scholar</small></span>
+				</div>
+				<div class="testimony-entry animate-box">
+          <div class="feed-bubble">
+						<p>Ravindra completed his bachelor's in mechanical engineering from Lovely Professional University,Punjab. He completed his M.Tech. in mechanical engineering from Manipal University Jaipur. Later on he joined EnBioMatRIC Lab at Manipal University Jaipur for his PhD. Currently he is pursuing his research in 3D printed Bio-nanocomposite implants for load bearing applications.</p>
+					</div>
+					<div class="author-img" style="background-image: url(static/images/user-7.jpg);"></div>
+					<span class="section-title2">Ravindra Kumar Saini<br> <small>Doctoral Research Scholar</small></span>
+				</div>
+		  </div>
+		<div class="col-md-6">
+					<div class="testimony-entry animate-box">
+						<div class="feed-bubble">
+						<p> Seema completed her bachelor's in Electronics and Communication Engineering from Maharshi Dayanand University, Rohtak. She completed her M.Tech and Doctoral Research Scholar in Electronics and Communication Engineering from YMCA University of Science and Technology, Faridabad. Later, she joined EnBioMatRIC Lab at Manipal University Jaipur for her PhD. Currently she is pursuing her research in development of hydrogel-based nanocomposite with enhanced electrical and mechanical properties for biosensing applications.</p>
+						</div>
+						<div class="author-img" style="background-image: url(static/images/user-11.jpg);"></div>
+						<span class="section-title2">Seema Rani<br> <small>Doctoral Research Scholar</small></span>
+					</div>
+				<div class="testimony-entry animate-box">
+					<div class="feed-bubble">
+					<p> Vivek Garg completed his bachelor's in mechanical engineering from Manipal Unversity Jaipur. Now working as research fellow.</p>
+					</div>
+					<div class="author-img" style="background-image: url(static/images/user-8.jpg);"></div>
+					<span class="section-title2">Vivek Garg <br> <small>Research Project Fellow</small></span>
+				</div>
+		</div>
+			<div class="col-md-6">
+			<div class="testimony-entry animate-box">
+					<div class="feed-bubble">
+						<p>G S S Adithya did his M.Tech. from NIT Jamshedpur in CIDM. He is presently pursuing PhD on novel micro-cellular metallic nanocomposite bone implants.</p>
+					</div>
+					<div class="author-img" style="background-image: url(static/images/user-4.jpg);"></div>
+					<span class="section-title2">G S S Adithya<br> <small>Doctoral Research Scholar</small></span>
+				</div>
+		</div>
+
+
+    </div>
+    </div>
+</div>
+{% endblock %}
